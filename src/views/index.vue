@@ -4,7 +4,7 @@
  * @Author: Do not edit
  * @Date: 2022-02-18 10:41:17
  * @LastEditors: XG
- * @LastEditTime: 2022-02-18 11:26:32
+ * @LastEditTime: 2022-02-18 11:28:39
 -->
 <!--
  * @Description: 
@@ -24,9 +24,9 @@
 
 <script lang="ts" setup>
 import { reactive } from "vue"
-import NavLeft from "./layout/navLeft.vue"
+import NavLeft from "/@/views/layout/navLeft.vue"
 // import NavLeft from "/@/views/layout/navLeft.vue"
-import NavRight from "./layout/navRight.vue"
+import NavRight from "/@/views/layout/navRight.vue"
 // import NavRight from "/@/views/layout/navRight.vue"
 </script>
 
