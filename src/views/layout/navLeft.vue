@@ -3,7 +3,7 @@
  * @Author: ZY
  * @Date: 2021-01-14 09:11:22
  * @LastEditors: XG
- * @LastEditTime: 2022-02-18 10:44:19
+ * @LastEditTime: 2022-02-18 20:02:46
 -->
 
 <template>
@@ -78,6 +78,9 @@ export default defineComponent({
     .List {
         .textTitle {
             padding: 0px 10px;
+            height: 50px;
+            line-height: 50px;
+            display: inline-block;
         }
         .ListMod {
             display: flex;
