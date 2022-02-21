@@ -4,10 +4,10 @@
  * @Author: XG
  * @Date: 2021-10-06 23:24:20
  * @LastEditors: XG
- * @LastEditTime: 2022-02-18 10:46:06
+ * @LastEditTime: 2022-02-21 16:12:29
  */
 //现在创建router的方式与vue2.x的版本已经很不同了
-import {createRouter, createWebHashHistory} from 'vue-router';
+import { createRouter, createWebHashHistory } from 'vue-router';
 const routes = [
     {
         path: '/',
