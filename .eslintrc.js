@@ -4,7 +4,7 @@
  * @Author: Do not edit
  * @Date: 2022-02-21 13:40:04
  * @LastEditors: XG
- * @LastEditTime: 2022-02-21 18:30:07
+ * @LastEditTime: 2022-02-22 14:58:22
  */
 module.exports = {
   root: true,
@@ -31,18 +31,18 @@ module.exports = {
     // 'prettier',
     // 'plugin:prettier/recommended',
   ],
-  plugins: ["vue", "@typescript-eslint"],
+  plugins: [ "vue", "@typescript-eslint" ],
   rules: {
     // 各个规则配置含义参考http://eslint.cn/docs/rules/
-    "array-bracket-spacing": ["error", "always"], // 数组紧贴括号部分不允许包含空格
-    "object-curly-spacing": ["error", "always"], // 对象紧贴花括号部分不允许包含空格
-    "block-spacing": ["error", "always"], // 单行代码块中紧贴括号部分不允许包含空格
+    "array-bracket-spacing": [ "error", "always" ], // 数组紧贴括号部分不允许包含空格
+    "object-curly-spacing": [ "error", "always" ], // 对象紧贴花括号部分不允许包含空格
+    "block-spacing": [ "error", "always" ], // 单行代码块中紧贴括号部分不允许包含空格
     "no-multiple-empty-lines": "error", // 不允许多个空行
     "no-var": "error", // 禁止使用 var
-    "@typescript-eslint/consistent-type-definitions": ["error", "interface"], // 优先使用 interface 而不是 type
+    "@typescript-eslint/consistent-type-definitions": [ "error", "interface" ], // 优先使用 interface 而不是 type
     // 关闭此规则 使用 prettier 的格式化规则， 感觉prettier 更加合理，
     // 而且一起使用会有冲突
-    "vue/max-attributes-per-line": ["off"],
+    "vue/max-attributes-per-line": [ "off" ],
     // 强制使用驼峰命名
     "vue/component-name-in-template-casing": [
       "error",
