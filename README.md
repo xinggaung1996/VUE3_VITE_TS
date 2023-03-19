@@ -10,3 +10,4 @@
 # VUE3_VITE_TS
 
 #### 1.prettierrc 相关校验配置 见官网 ：// https://prettier.io/
+修改测试
